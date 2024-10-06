@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import * as THREE from 'three';
 import { ExtrudeGeometry } from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-const GOOGLE_MAPS_API_KEY = 'AIzaSyAhSx2AJmZ_jbknqaKa-fOYSvv1cL7xTQ0';
+const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
 const LOCATIONS = [
   { coords: "48.78479793799535, 2.6247703730708505", name: "Paris 1" },

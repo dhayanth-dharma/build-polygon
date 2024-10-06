@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "export REACT_APP_GOOGLE_MAPS_API_KEY=\"$MAP_KEY\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
